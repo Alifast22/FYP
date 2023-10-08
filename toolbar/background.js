@@ -1,5 +1,5 @@
 chrome.runtime.onMessage.addListener(function(message, sender, sendResponse) {
-    val="Phishy"
+    val="djf"
     if (val==="Phishy"){
     if (message.url) {
         chrome.notifications.create({
